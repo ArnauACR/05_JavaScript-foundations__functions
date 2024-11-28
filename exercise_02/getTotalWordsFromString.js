@@ -3,3 +3,6 @@
  * input: string (sentence)
  * output: number
  */
+function getTotalWordsFromString(){
+    
+}

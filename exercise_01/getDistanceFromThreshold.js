@@ -4,3 +4,17 @@
  * input: number (threshold)
  * output: number
  */
+
+/**
+ * 
+ * @param {number} exceedsnumber - DESCRIPTION
+ * @param {number} leftsnumbers - DESCRIPTION
+ * @returns number  - DESCRIPTION
+ */
+function getDistanceFromThreshold(exceedsnumber, leftsnumbers){
+    const resultdigitcompare = exceedsnumber - leftsnumbers;
+
+    return resultdigitcompare;
+} 
+
+export default getDistanceFromThreshold;
