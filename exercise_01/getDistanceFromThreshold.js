@@ -7,9 +7,9 @@
 
 /**
  * 
- * @param {number} exceedsnumber - DESCRIPTION
- * @param {number} leftsnumbers - DESCRIPTION
- * @returns number  - DESCRIPTION
+ * @param {number} exceedsnumber - This number is major exceeds
+ * @param {number} leftsnumbers - This number is major lefts
+ * @returns number  - 
  */
 function getDistanceFromThreshold(exceedsnumber, leftsnumbers){
     const resultdigitcompare = exceedsnumber - leftsnumbers;

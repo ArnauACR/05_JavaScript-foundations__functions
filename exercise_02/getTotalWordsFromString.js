@@ -3,6 +3,17 @@
  * input: string (sentence)
  * output: number
  */
-function getTotalWordsFromString(){
-    
+/**
+ * 
+ * @param {string} userstring - the string whta user introduce
+ * @returns number -
+ */
+
+
+function getTotalWordsFromString(userstring){
+    const resultnumberwords = userstring.split(" ");
+
+    return resultnumberwords;
 }
+
+export default getTotalWordsFromString;
